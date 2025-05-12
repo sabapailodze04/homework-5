@@ -135,11 +135,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 40px;
-  font-family: "deca" Arial, Helvetica, sans-serif;
-}
-@font-face {
-  font-family: "deca";
-  src: url("../assets/fonts/deca.ttf");
+  font-family: "deca", Arial, Helvetica, sans-serif;
 }
 
 .main-container {
@@ -173,6 +169,7 @@ body {
   border-radius: 4px;
   background-color: var(--secondary-color);
   border-style: none;
+  padding: 10px 44px;
 }
 
 .info-section p {
@@ -180,4 +177,5 @@ body {
   line-height: 150%;
   letter-spacing: 0%;
   color: var(--text-color);
+  font-family: "deca";
 }
