@@ -123,3 +123,61 @@ table {
   border-spacing: 0;
 }
 /* ! code starting */
+@font-face {
+  font-family: "deca";
+  src: url("../assets/fonts/deca.ttf");
+}
+
+body {
+  --text-color: #232340;
+  --main-color: #f5f5f5;
+  --secondary-color: #5468e780;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-family: "deca" Arial, Helvetica, sans-serif;
+}
+@font-face {
+  font-family: "deca";
+  src: url("../assets/fonts/deca.ttf");
+}
+
+.main-container {
+  max-width: 1160px;
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+}
+.logo-section {
+  height: 52px;
+  width: 50%;
+}
+
+.info-section {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-section a {
+  color: var(--text-color);
+  height: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-top: 11.5px;
+}
+.button-container {
+  width: 184px;
+  height: 100%;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  border-style: none;
+}
+
+.info-section p {
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--text-color);
+}
